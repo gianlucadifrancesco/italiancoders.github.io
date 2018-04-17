@@ -77,3 +77,14 @@ typings/
 
 # next.js build output
 .next
+
+# Mac OS
+.DS_Store
+
+# Gatsby
+
+public
+.gatsby-context.js
+.intermediate-representation/
+.cache/
+
