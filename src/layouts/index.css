@@ -6,3 +6,14 @@ html, body {
     font-size: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+    box-shadow: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}

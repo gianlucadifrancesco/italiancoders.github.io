@@ -3,6 +3,7 @@ module.exports = {
     "browser": true,
     "es6": true,
   },
+  "extends": "airbnb",
   "plugins": [
     "react",
   ],
@@ -15,5 +16,9 @@ module.exports = {
       "experimentalObjectRestSpread": true,
       "jsx": true,
     },
+  },
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": "false",
   }
 }
