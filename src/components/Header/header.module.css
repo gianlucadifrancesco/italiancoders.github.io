@@ -1,0 +1,31 @@
+.headerBackground {
+    background-color: #1E73BE;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100px;
+    color: #fff;
+}
+
+.headerBackground a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu > a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.box:first-child { margin-right: auto; }
+.box:last-child { margin-left: auto;  }
