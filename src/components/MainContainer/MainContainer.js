@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'src/components/MainContainer/mainContainer.module.css';
+import styles from './MainContainer.css';
 
 export default function Container({ children }) {
   return(

@@ -1,20 +1,20 @@
 import React from 'react';
-import styles from './header.module.css';
+import './Header.css';
 
-import logo from "./../../assets/favicon.png"
+import logo from './../../assets/logo.png';
 
-export default function(props) {
-  return(
-    <div className={styles.headerBackground}>
-      <div className={styles.box} style={{ marginRight: 'auto' }}>
-          <a>asd</a>
-          <a>asd2</a>
+export default function () {
+  return (
+    <div className="headerBackground">
+      <div className="menu">
+        <a>asd</a>
+        <a>asd2</a>
       </div>
-      <div className={styles.box}>
-        <img src={logo} style={{ width: 64, height: 64 }} />
+      <div className="logo">
+        <img src={logo} alt="logo" style={{ height: '75px' }} />
       </div>
-      <div className={styles.box}>
-        <a style={{ marginLeft: 'auto' }}>asd2</a>
+      <div className="search">
+        <a>asd2</a>
       </div>
     </div>
   );
