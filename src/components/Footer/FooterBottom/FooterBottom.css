@@ -1,0 +1,16 @@
+.footerBottomContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    align-self: center;
+}
+.links > a {
+    margin-right: 1.5em;
+}
