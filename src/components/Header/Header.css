@@ -48,3 +48,17 @@
     font-size: 14px;
     padding-left: 30px;
 }
+
+.personalIcon {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #1E73BE;
+    margin-right: 10px;
+    padding-right: 6px;
+}

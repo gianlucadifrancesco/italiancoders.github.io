@@ -1,29 +1,17 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import get from 'lodash/get';
 import Helmet from 'react-helmet';
 
-import Bio from '../components/Bio';
+import AuthorsList from '../components/AuthorsPage/AuthorsList';
 
-export default class AuthorsPage extends React.Component {
-  render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
-    const posts = get(this, 'props.data.allFile.edges');
-
-    return (
-      <div>
-        <Helmet title={siteTitle} />
-        {posts.map(({ node }) => {
-          const title = get(node, 'childMarkdownRemark.frontmatter.title');
-          return (
-            <div>
-              <h3 style={{ color: 'black' }}>{title}</h3>
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
+export default function AuthorsPage(props) {
+  const authors = get(props, 'data.allFile.edges');
+  return (
+    <div>
+      <Helmet title="Gli autori - ItalianCoders" />
+      <AuthorsList authors={authors} />
+    </div>
+  );
 }
 
 export const pageQuery = graphql`
