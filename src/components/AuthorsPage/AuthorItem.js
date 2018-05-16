@@ -2,10 +2,10 @@ import React from 'react';
 import get from 'lodash/get';
 
 export default function AuthorItem({ author }) {
-  const title = get(author, 'childMarkdownRemark.frontmatter.title');
+  const name = get(author, 'childMarkdownRemark.frontmatter.name');
   return (
     <div className="authorItem">
-      <p>My name is: {title}</p>
+      <p>My name is: {name}</p>
     </div>
   );
 }

@@ -21,7 +21,11 @@ query AuthorsQuery {
       node {
         childMarkdownRemark {
           frontmatter {
-            title
+            name
+            gravatarMail
+            bio
+            github
+            website
           }
         }
       }
