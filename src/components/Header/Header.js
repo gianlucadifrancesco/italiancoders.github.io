@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-import logo from './../../assets/logo.png';
+// import logo from './../../assets/logo.png';
 
 export default function () {
   return (
@@ -11,10 +11,10 @@ export default function () {
         <a>asd2</a>
       </div>
       <div className="logo">
-        <img src={logo} alt="logo" style={{ height: '75px' }} />
+        {/*<img src={logo} alt="logo" style={{ height: '75px' }} />*/}
       </div>
       <div className="search">
-        <a>asd2</a>
+        <input type="text" className="searchBox" placeholder="Cerca"></input>
       </div>
     </div>
   );

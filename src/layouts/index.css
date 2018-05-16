@@ -17,3 +17,9 @@ img {
     margin: 0;
     padding: 0;
 }
+
+input {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}

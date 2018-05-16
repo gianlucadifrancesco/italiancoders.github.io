@@ -37,3 +37,14 @@
 .menu > a:first-child { margin-left: auto; }
 .menu > a:last-child { margin-right: 0; }
 .search > a { margin-right: auto;  }
+
+.searchBox {
+    border: none;
+    outline: 0;
+    background-color: #fff;
+    color: #444;
+    height: 30px;
+    width: 190px;
+    font-size: 14px;
+    padding-left: 30px;
+}
