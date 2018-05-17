@@ -2,7 +2,7 @@ import React from 'react';
 import MainContainer from '../../MainContainer/MainContainer';
 
 import styles from './FooterMiddle.module.css';
-import logo from './../../../assets/minilogo.png';
+import logoMini from './../../../assets/logoMini.png';
 import githubLogo from './../../../assets/githubLogo.png';
 import facebookLogo from './../../../assets/facebookLogo.png';
 import slackLogo from './../../../assets/slackLogo.png';
@@ -14,7 +14,7 @@ export default function FooterMiddle() {
         <div className={styles.info}>
           <div className={styles.infoTitle}>
             <div style={{ width: '50px' }}>
-              <img src={logo} alt="logo" style={{ height: '50px' }} />
+              <img src={logoMini} alt="logo" style={{ height: '50px' }} />
             </div>
             <div style={{ marginTop: '.6em' }}>
               <span style={{ fontSize: '1.5em', marginLeft: '.6em' }}>ItalianCoders</span>
