@@ -1,0 +1,64 @@
+.footerMiddleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    color: #fff;
+    text-align: center;
+}
+
+.info {
+}
+
+.infoTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.infoDescription {
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+.infoSocial {
+    margin-top: 1em;
+}
+.infoSocial > a {
+    margin-right: 1em;
+}
+.infoSocial > a:last-child {
+    margin-right: 0;
+}
+.infoSocial > a > img {
+    height: 30px;
+}
+
+.infoNav {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+}
+.infoNav > div {
+    margin-right: 5em;
+}
+.infoNav > div:last-child {
+    margin-right: 0;
+}
+
+.infoMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+}
+.infoMenu > a {
+    line-height: 1.3em;
+    margin-top: .5em;
+    -webkit-transition: color .2s ease-out;
+    -moz-transition: color .2s ease-out;
+    -o-transition: color .2s ease-out;
+    transition: color .2s ease-out;
+}
+.infoMenu > a:hover {
+    color: #d5e8ff;
+}

@@ -4,10 +4,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import './index.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
+import './index.css';
 import favicon from '../assets/favicon.png';
 
 class Template extends React.Component {

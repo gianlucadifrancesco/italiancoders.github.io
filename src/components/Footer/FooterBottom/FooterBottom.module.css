@@ -7,10 +7,13 @@
     font-weight: 300;
 }
 
-.links {
+.footerBottomContainer > .links {
     display: flex;
     align-self: center;
 }
-.links > a {
+.footerBottomContainer > .links > a {
     margin-right: 1.5em;
+}
+.footerBottomContainer > .links > a:last-child {
+    margin-right: 0;
 }

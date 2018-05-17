@@ -1,9 +1,10 @@
 import React from 'react';
-import './MainContainer.css';
+
+import styles from './MainContainer.module.css';
 
 export default function MainContainer({ children }) {
   return (
-    <div className="container">
+    <div className={styles.container}>
       {children}
     </div>
   );

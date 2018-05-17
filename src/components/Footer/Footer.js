@@ -1,25 +1,21 @@
 import React from 'react';
-import MainContainer from '../MainContainer/MainContainer';
+import FooterTop from '../Footer/FooterTop/FooterTop';
+import FooterMiddle from '../Footer/FooterMiddle/FooterMiddle';
 import FooterBottom from '../Footer/FooterBottom/FooterBottom';
-import './Footer.css';
+
+import styles from './Footer.module.css';
 
 export default function Footer() {
   return (
     <div>
-      <div className="footerTop">
-        <MainContainer>
-          Miss
-        </MainContainer>
+      <div className={styles.footerTop}>
+        <FooterTop />
       </div>
-      <div className="footerMid">
-        <MainContainer>
-          Muss
-        </MainContainer>
+      <div className={styles.footerMiddle}>
+        <FooterMiddle />
       </div>
-      <div className="footerBottom">
-        <MainContainer>
-          <FooterBottom />
-        </MainContainer>
+      <div className={styles.footerBottom}>
+        <FooterBottom />
       </div>
     </div>
   );
